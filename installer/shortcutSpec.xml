@@ -1,0 +1,36 @@
+<shortcuts>
+	<skipIfNotSupported/>
+	<defaultCurrentUser/>
+	<programGroup defaultName="EBlockMail" location="startMenu"/>
+	<shortcut
+		name="EBlockMail Server"
+		target="$INSTALL_PATH\EBlockMail.exe"
+		commandLine=""
+		workingDirectory="$INSTALL_PATH"
+        description="Start EBlockMail server"
+		iconFile="$INSTALL_PATH\html\www\favicon.ico"
+        iconIndex="0"
+        initialState="normal"
+        programGroup="yes"
+		desktop="yes"
+        applications="no"
+        startMenu="no"
+		startup="no"
+		runAsAdministrator="true">
+	</shortcut>	
+	<shortcut
+		name="EBlockMail Wallet"
+		target="http://localhost:33435/index.html"
+		commandLine=""
+		workingDirectory="$INSTALL_PATH"
+        description="Launch EBlockMail wallet in browser"
+		iconFile="$INSTALL_PATH\html\www\favicon.ico"
+        iconIndex="0"
+        initialState="normal"
+        programGroup="yes"
+		desktop="yes"
+        applications="no"
+        startMenu="no"
+		startup="no">
+	</shortcut>	
+</shortcuts>
